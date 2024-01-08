@@ -29,7 +29,7 @@ function App() {
 						that&apos;s right for you and your friends. Find it all in Fortnite
 						... Drop In.
 					</p>
-					<button className='font-poppins text-black bg-white w-80 h-12 mt-10'>
+					<button className='font-poppins text-black bg-white min-w-40 w-auto sm:w-80 h-12 mt-10'>
 						Visit Website
 					</button>
 				</div>
@@ -99,11 +99,11 @@ function App() {
 						call at
 						<b>+91 480 20802730</b>.
 					</p>
-					<div className='flex gap-4 justify-center'>
-						<button className='font-poppins text-white bg-black border border-white w-80 h-12 mt-10'>
+					<div className='flex flex-col sm:flex-row gap-4 justify-center'>
+						<button className='font-poppins text-white bg-black border border-white w-auto sm:w-80 h-12 mt-10'>
 							Ring us on Skype
 						</button>
-						<button className='font-poppins text-black bg-white w-80 h-12 mt-10'>
+						<button className='font-poppins text-black bg-white w-auto sm:w-80 h-12 mt-10'>
 							Contact Us
 						</button>
 					</div>
